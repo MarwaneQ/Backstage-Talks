@@ -1,10 +1,10 @@
 body {
-   margin: 0;
-   padding: 0;
-   background-color: #FFBE00;
-   color: var(--accent);
-   -webkit-font-smoothing: antialiased;
-    -webkit-transition: background-color 500ms ease-out 200ms;
+  margin: 0;
+  padding: 0;
+  background-color: #FFBE00;
+  color: var(--accent);
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: background-color 500ms ease-out 200ms;
  }
  
  * {
@@ -50,7 +50,6 @@ section {
    position: relative;
    scroll-snap-align: center;
    perspective: 500px;
-   transition: background-color 0.5s;
    flex-direction: column;
  }
  
@@ -87,25 +86,4 @@ section {
   height: 5px;
   background: var(--accent);
   bottom: 100px;
-}
-.yellow{
-  background-color: #FFBE00;
-}
-.orange {
-  background-color: #FA6922;
-}
-.syin{
-  background-color: #00C2B6;
-}
-.white{
-  background-color: #FFFFFF;
-}
-.pink{
-  background-color: #FF608C
-}
-.blue {
-  background-color: #1939BE;
-}
-.red{
-  background-color: #E30512;
 }
