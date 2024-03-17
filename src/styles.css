@@ -1,6 +1,7 @@
 body {
    margin: 0;
    padding: 0;
+   background-color: #FFBE00;
    color: var(--accent);
    -webkit-font-smoothing: antialiased;
     -webkit-transition: background-color 500ms ease-out 200ms;
