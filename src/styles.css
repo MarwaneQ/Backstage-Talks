@@ -1,28 +1,13 @@
 body {
-   --black: #000000;
-   --ash-black: #222;
-   --white: #fafafa;
-   --sky: #00ccff;
-   --green: #22dddd;
-   --blue: #1300ff;
-   --dusk: #6600ff;
-   --purple: #9900ff;
-   --pink: #ff0066;
-   --red: #fe0222;
-   --orange: #fd7702;
-   --yellow: #ffbb00;
- 
-   --background: var(--red);
-   --accent: var(--white);
- 
    margin: 0;
    padding: 0;
-   background-color: var(--background);
    color: var(--accent);
+   -webkit-font-smoothing: antialiased;
+    -webkit-transition: background-color 500ms ease-out 200ms;
  }
  
  * {
-   font-family: sofia-pro, sans-serif;
+  font-family: 'Roboto', sans-serif;
    font-weight: 400;
    font-style: normal;
    -webkit-font-smoothing: antialiased;
@@ -35,7 +20,9 @@ body {
    font-weight: 600;
    font-style: normal;
  }
- 
+ html{
+  scroll-snap-type: y mandatory;
+ }
  h1 {
    font-size: 36px;
    font-weight: 700;
@@ -62,18 +49,26 @@ section {
    position: relative;
    scroll-snap-align: center;
    perspective: 500px;
+   transition: background-color 0.5s;
+   flex-direction: column;
  }
  
  section > div {
-   width: 300px;
+   width: 320px;
    height: 400px;
    position: relative;
    max-height: 90vh;
    margin: 20px;
-   background: var(--white);
+   background: transparent;
    overflow: hidden;
  }
- 
+ section  h6{
+  color: #251d20;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+ }
+
  img {
    position: absolute;
    top: 0;
@@ -83,6 +78,7 @@ section {
    width: 100%;
    height: 100%;
  }
+
  .progress {
   position: fixed;
   left: 0;
@@ -90,4 +86,25 @@ section {
   height: 5px;
   background: var(--accent);
   bottom: 100px;
+}
+.yellow{
+  background-color: #FFBE00;
+}
+.orange {
+  background-color: #FA6922;
+}
+.syin{
+  background-color: #00C2B6;
+}
+.white{
+  background-color: #FFFFFF;
+}
+.pink{
+  background-color: #FF608C
+}
+.blue {
+  background-color: #1939BE;
+}
+.red{
+  background-color: #E30512;
 }
