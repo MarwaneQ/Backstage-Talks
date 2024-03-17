@@ -18,7 +18,8 @@ function Image({ id }) {
       <div ref={ref}>
         <img src={`${id}.png`} alt="jj" />
       </div>
-      <h6>book {id}</h6>
+      {/* <h6>book {id}</h6> */}
+      <a href="#">BUY HERE</a>
     </section>
   );
 }

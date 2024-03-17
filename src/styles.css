@@ -65,10 +65,16 @@ section {
  section  h6{
   color: #251d20;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 25px;
  }
-
+section a{
+  color: #251d20;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-top: 20px;
+}
  img {
    position: absolute;
    top: 0;
